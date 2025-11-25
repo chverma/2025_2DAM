@@ -1,0 +1,81 @@
+site_name: Evaluación Repositorios NestJS - 2DAM
+site_description: Evaluación completa de 8 repositorios backend NestJS con análisis de Swagger, CRUD, IA y constancia
+site_author: Evaluación Académica
+theme:
+  name: material
+  language: es
+  palette:
+    # Light mode
+    - scheme: default
+      primary: indigo
+      accent: deep purple
+      toggle:
+        icon: material/brightness-7
+        name: Cambiar a modo oscuro
+    # Dark mode
+    - scheme: slate
+      primary: indigo
+      accent: deep purple
+      toggle:
+        icon: material/brightness-4
+        name: Cambiar a modo claro
+  features:
+    #- navigation.instant
+    #- navigation.tracking
+    #- navigation.tabs
+    #- navigation.sections
+    #- navigation.expand
+    # - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+    - content.code.annotate
+    #- toc.follow
+
+markdown_extensions:
+  - abbr
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - toc:
+      permalink: true
+      toc_depth: 3
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+  - tables
+
+plugins:
+  - search:
+      lang: es
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com
+  generator: false
+
+nav:
+  - Inicio: index.md
