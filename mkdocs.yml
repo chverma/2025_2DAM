@@ -1,6 +1,8 @@
 site_name: Evaluación Repositorios NestJS - 2DAM
 site_description: Evaluación completa de 8 repositorios backend NestJS con análisis de Swagger, CRUD, IA y constancia
 site_author: Evaluación Académica
+docs_dir: docs_md
+site_dir: docs
 theme:
   name: material
   language: es
@@ -76,6 +78,3 @@ extra:
     - icon: fontawesome/brands/github
       link: https://github.com
   generator: false
-
-nav:
-  - Inicio: index.md
